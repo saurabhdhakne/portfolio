@@ -5,7 +5,7 @@
     <p class="col-md-4 mb-0 text-muted">&copy; 2022 Saurabh Dhakne</p>
 
     <a
-      href="/"
+      href="{% url 'home' %}"
       class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none"
     >
       <svg class="bi me-2" width="40" height="32">
@@ -15,16 +15,10 @@
 
     <ul class="nav col-md-4 justify-content-end">
       <li class="nav-item">
-        <a href="/" class="nav-link px-2 text-muted">Home</a>
+        <a href="{% url 'home' %}" class="nav-link px-2 text-muted">Home</a>
       </li>
       <li class="nav-item">
-        <a href="blogs" class="nav-link px-2 text-muted">Blogs</a>
-      </li>
-      <li class="nav-item">
-        <a href="contact" class="nav-link px-2 text-muted">Contact</a>
-      </li>
-      <li class="nav-item">
-        <a href="about" class="nav-link px-2 text-muted">About</a>
+        <a href="{% url 'blog' %}" class="nav-link px-2 text-muted">Blog</a>
       </li>
     </ul>
   </footer>

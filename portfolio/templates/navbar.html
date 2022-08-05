@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-light fixed-top">
   <div class="container">
-    <a class="navbar-brand text-light" href="#">
+    <a class="navbar-brand text-light" href="{% url 'home' %}">
       SAURABH
       <span class="text-success"><b>/</b></span>
       D
@@ -21,12 +21,20 @@
       <div class="d-flex">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link text-secondary" aria-current="page" href="/">
+            <a
+              class="nav-link text-secondary"
+              aria-current="page"
+              href="{% url 'home' %}"
+            >
               Home
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-secondary" aria-current="page" href="/blog">
+            <a
+              class="nav-link text-secondary"
+              aria-current="page"
+              href="{% url 'blog' %}"
+            >
               Blog
             </a>
           </li>

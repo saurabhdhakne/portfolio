@@ -3,5 +3,5 @@ from . import views
 
 # URLConf
 urlpatterns = [
-    path('', views.indexPage),
+    path('', views.indexPage, name="home"),
 ]
