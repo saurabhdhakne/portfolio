@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-)!dz4o2cwk1uf0=qm4w&y5u!v*l4lmd-9$^jm+h6uz0c*7!w#a
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["65.2.143.194","saurabhdhakne.com","www.saurabhdhakne.com","localhost"]
+ALLOWED_HOSTS = ["65.2.143.194","vishalghuge.com","www.vishalghuge.com","localhost"]
 
 PROJECT_PATH = os.path.realpath(os.path.dirname(__file__))
 
@@ -138,14 +138,14 @@ STATIC_ROOT = os.path.join(BASE_DIR, "static/")
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 cloudinary.config(
-    cloud_name = "defjgjtkn",
-    api_key = "634285382925272",
-    api_secret = "GHbovRP0TQHbrsmeUvve1rGiD70",
+    cloud_name = "ddo4lrh9b",
+    api_key = "498964799741979",
+    api_secret = "IuhsI07rNX6dRzlLds-r1oOM6nE",
     # api_proxy = "http://proxy.server:9999"
     secure=True
 )
 
-CLOUDINARY_URL='cloudinary://634285382925272:GHbovRP0TQHbrsmeUvve1rGiD70@defjgjtkn'
+CLOUDINARY_URL='cloudinary://498964799741979:IuhsI07rNX6dRzlLds-r1oOM6nE'
 
 CKEDITOR_CONFIGS = {
     'default': {
@@ -155,6 +155,6 @@ CKEDITOR_CONFIGS = {
 }
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://saurabhdhakne.com',
-    'https://www.saurabhdhakne.com'
+    'https://www.vishalghuge.com',
+    'https://www.vishalghuge.com'
 ]

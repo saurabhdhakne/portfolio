@@ -22,7 +22,7 @@ class Posts(models.Model):
     overview = models.TextField(max_length=300, blank=True, null=True)
     author = models.CharField(max_length=100)
     slug = models.SlugField(max_length=255, editable=False, default=None)
-    thumbnail = CloudinaryField('image', folder = "saurabhdhakne")
+    thumbnail = CloudinaryField('image', folder = "vishalghuge")
     content =  RichTextField()
     created_at = models.DateField(auto_now_add=True)
     updated_at = models.DateField(auto_now=True)
