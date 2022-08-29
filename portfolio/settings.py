@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-)!dz4o2cwk1uf0=qm4w&y5u!v*l4lmd-9$^jm+h6uz0c*7!w#a
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["65.2.143.194","saurabhdhakne.com","www.saurabhdhakne.com"]
+ALLOWED_HOSTS = ["65.2.143.194","saurabhdhakne.com","www.saurabhdhakne.com","localhost"]
 
 PROJECT_PATH = os.path.realpath(os.path.dirname(__file__))
 
@@ -153,3 +153,8 @@ CKEDITOR_CONFIGS = {
         'toolbar': 'full',
     },
 }
+
+CSRF_TRUSTED_ORIGINS = [
+    'https://saurabhdhakne.com',
+    'https://www.saurabhdhakne.com'
+]
