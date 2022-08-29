@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-)!dz4o2cwk1uf0=qm4w&y5u!v*l4lmd-9$^jm+h6uz0c*7!w#a
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["65.2.143.194","vishalghuge.com","www.vishalghuge.com","localhost"]
+ALLOWED_HOSTS = ["65.2.141.249","vishalghuge.com","www.vishalghuge.com","localhost"]
 
 PROJECT_PATH = os.path.realpath(os.path.dirname(__file__))
 
@@ -85,9 +85,9 @@ WSGI_APPLICATION = 'portfolio.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'saurabhdb',
-        'USER': 'saurabh', 
-        'PASSWORD': 'srb404',
+        'NAME': 'vishaldb',
+        'USER': 'vishal', 
+        'PASSWORD': 'vishal777',
         'HOST': '127.0.0.1', 
         'PORT': '5432',
     }
