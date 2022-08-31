@@ -156,5 +156,6 @@ CKEDITOR_CONFIGS = {
 
 CSRF_TRUSTED_ORIGINS = [
     'https://www.vishalghuge.com',
-    'https://www.vishalghuge.com'
+    'https://www.vishalghuge.com',
+    'https://vishalghuge.com',
 ]
