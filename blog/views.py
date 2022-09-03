@@ -17,7 +17,7 @@ def getBlog(request, slug):
     try:
         allBlogs = []
         data = Posts.objects.filter(slug=slug).values()
-        others = Posts.objects.filter(~Q(slug=slug))[0:10].values()
+        others = Posts.objects.filter(slug=slug)[0:10].values()
         for i in data:
             content = i['content']
         for other in others:
